@@ -1,6 +1,6 @@
 /* Header Section Start */
 .packages-hero-section-container {
-  background-image: url(/images/location/tour-location-homepage.png);
+  background-image: url(/Archi-s-tour-and-travel/images/location/tour-location-homepage.png);
   display: flex;
   justify-content: center;
   background-position: bottom;
@@ -402,24 +402,24 @@ p {
 }
 
 .gallery-item img {
-width: 100%;
-height: 100%;
-display: block;
-object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .tall {
-grid-row: span 3;
-grid-column: span 2;
+  grid-row: span 3;
+  grid-column: span 2;
 }
 
 .large {
-grid-column: span 2;
-grid-row: span 1;
+  grid-column: span 2;
+  grid-row: span 1;
 }
 
 .wide {
-grid-column: span 3;
+  grid-column: span 3;
 }
 
 .gallery-text {
@@ -715,7 +715,8 @@ footer {
   .form-button {
     width: auto;
   }
-  .main-content-img, .main-content-book-img {
+  .main-content-img,
+  .main-content-book-img {
     display: none;
   }
 }

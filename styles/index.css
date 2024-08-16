@@ -1,5 +1,5 @@
 .homepage-hero-section-container {
-  background-image: url(/Archi-s-tour-and-travel/images/Rectangle\ 19290.png);
+  background-image: url(/images/Rectangle\ 19290.png);
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -349,6 +349,10 @@
   line-height: clamp(12px, 4vw, 26px);
   color: rgba(0, 0, 0, 1);
 }
+.hs-button-div {
+  margin-top: 10px;
+}
+
 .hs-button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -607,6 +611,7 @@
     min-height: 400px;
     flex-wrap: wrap;
     height: auto;
+    flex-direction: column;
   }
   .explore-section-img {
     min-width: 250px;
@@ -708,6 +713,7 @@ footer {
   border-style: none;
   font-weight: 500;
   line-height: 26px;
+  cursor: pointer;
 }
 
 .footer-join-text {
@@ -737,7 +743,7 @@ footer {
 }
 
 .homepage-banner-conteiner {
-  background-image: url(/Archi-s-tour-and-travel/images/Rectangle\ 19294.png);
+  background-image: url(/images/Rectangle\ 19294.png);
   background-size: cover;
   background-position: bottom;
   background-position-x: 70%;
@@ -916,6 +922,7 @@ footer {
   margin-top: 10px;
   border-style: none;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .city-name {
